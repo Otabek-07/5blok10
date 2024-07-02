@@ -1,0 +1,28 @@
+.navbar{
+    background-color:#000000ac;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.navbarwrapper{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.navbarwrapper h1{
+    color: #fff;
+}
+.form{
+    width: 300px;
+    height: 30px;
+    display: flex;
+    padding:0 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.input{
+    border: none;
+    outline: none;
+}

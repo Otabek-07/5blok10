@@ -1,0 +1,115 @@
+.bg{
+    background-color:#000000e7;
+    padding: 50px 0;
+}
+.box{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.productsCard{
+    width: 400px;
+    padding: 20px 20px;
+    background-color:#fff;
+    border-radius: 5px;
+    color:#000;
+}
+.productsCard img{
+    width: 350px;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 2px;
+    background-color: gray;
+}
+.productsCard h2{
+    font-family: sans-serif;
+    font-weight: 800;
+    margin: 10px 0;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:1;
+    overflow: hidden;
+}
+.productsCard p{
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.productsCard span {
+    font-family: sans-serif;
+    color:rgb(66, 65, 65);
+    font-weight: 600;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.carzinca {
+    display: flex;
+    justify-content: space-between;
+}
+.carzinca b {
+    font-weight: 900;
+}
+.carzinca button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.box0{
+    display: flex;
+    gap:30px;
+}
+/* ////////////// */
+.productsCardd{
+    width: 250px;
+    padding: 20px 20px;
+    background-color:#fff;
+    border-radius: 5px;
+    color:#000;
+    margin: 10px 0;
+}
+.productsCardd img{
+    width: 200px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 2px;
+    background-color: gray;
+}
+.productsCardd h2{
+    font-family: sans-serif;
+    font-weight: 800;
+    margin: 10px 0;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:1;
+    overflow: hidden;
+}
+.productsCardd p{
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.productsCardd span {
+    font-family: sans-serif;
+    color:rgb(66, 65, 65);
+    font-weight: 600;
+    line-height: 25px;
+    display: -webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.carzinca {
+    display: flex;
+    justify-content: space-between;
+}
+.carzinca b {
+    font-weight: 900;
+}
+.carzinca button{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
