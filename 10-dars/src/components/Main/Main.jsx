@@ -5,6 +5,14 @@ const reducer = (state, action) => {
     switch(action.type){
         case "ADD_TO_CART":
             return [...state, action.data];
+        case "REMOVE_FROM _CART":
+           const removPr = state.findIndex( data => data.id === action.id);
+           if(removPr !== -1){
+            state.splice(removPr, 1);
+            let newS = [...state];
+             return newS;
+           }
+           return state;
         default:
             return state;
     }
@@ -22,6 +30,9 @@ const Main = () => {
 
     const handleClick = (data) => {
         dispatch({ type: "ADD_TO_CART", data });
+    };
+    const remov = (id) => {
+        dispatch({ type: "REMOVE_FROM _CART", id});
     };
 
     console.log(state);
@@ -53,7 +64,7 @@ const Main = () => {
                             <p>{data.category}</p>
                             <div className="carzinca">
                                 <b>{data.price}</b>
-                                <button onClick={() => handleClick(data)}>🧡</button>
+                                <button onClick={() => remov(data.id)}>🧡</button>
                             </div>
                         </div>
                     ))}
